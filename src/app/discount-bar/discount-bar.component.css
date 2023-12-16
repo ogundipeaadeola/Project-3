@@ -1,0 +1,17 @@
+.discount-bar-host {
+    display: block;
+    background-color: rgb(17, 24, 32);
+    border-top: 1px solid transparent;
+    height: 48px;
+  }
+  
+  .discount-bar-text {
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    font-family: 'MaximaEF-Light';
+    margin-top: 15px;
+    cursor: default;
+    opacity: 1;
+  }
+  

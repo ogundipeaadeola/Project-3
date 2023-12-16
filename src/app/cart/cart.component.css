@@ -1,0 +1,45 @@
+.cart-component-title {
+    cursor: default;
+    font-family: 'Marsden wide';
+    font-size: 14pt;
+  }
+  
+  .cart-component-item-wrapper {
+    font-family: 'MaximaEF-Light';
+    width: 100%;
+    min-width: 400px;
+    max-width: 450px;
+  }
+  
+  .cart-component-item {
+    font-family: 'MaximaEF-Light';
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 32px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    background-color: #EEEEEE;
+  }
+  
+  .cart-component-item-name {
+    font-family: 'MaximaEF-Light';
+  }
+  
+  .cart-component-item-price {
+    font-family: 'MaximaEF-Light';
+  }
+  
+  .cart-component-shipping-link {
+    background-color: rgb(199, 16, 46);
+    height: 25px;
+    width: 110px;
+    font-family: 'MaximaEF-Light';
+    color: white;
+    cursor: pointer;
+    font-size: 10pt;
+    line-height: 25px;
+    text-align: center;
+  }
+  

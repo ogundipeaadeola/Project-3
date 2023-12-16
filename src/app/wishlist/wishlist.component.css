@@ -1,0 +1,22 @@
+.wishlist-container {
+  font-family: 'MaximaEF-Light';
+  cursor: default;
+}
+
+.wishlist-title {
+  font-family: 'Marsden wide';
+  font-size: 14pt;
+}
+
+.wishlist-item {
+  width: 100%;
+  min-width: 400px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  background-color: #EEEEEE;
+}

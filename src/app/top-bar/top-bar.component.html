@@ -1,0 +1,20 @@
+<div class="top-bar">
+  <a [routerLink]="['homepage']">
+    <img class="wilson-logo" src="assets/wilson-logo.png" alt="Wilson Logo" />
+  </a>
+
+  <div class="menu-items">
+    <p [routerLink]="['sportsinfo']" class="menu-item">SPORTS</p>
+    <p [routerLink]="['women']" class="menu-item">WOMEN</p>
+    <p [routerLink]="['men']" class="menu-item">MEN</p>
+  </div>
+
+  <div class="icons">
+    <a [routerLink]="['wishlist']" class="icon button">
+      <img class="heart-icon" src="assets/heart-icon.png" alt="Heart Icon" />
+    </a>
+    <a [routerLink]="['cart']" class="icon button">
+      <img class="bag-icon" src="assets/bag-icon.png" alt="Bag Icon" />
+    </a>
+  </div>
+</div>

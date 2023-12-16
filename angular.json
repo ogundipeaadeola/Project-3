@@ -1,0 +1,130 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "Project-3": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": ["zone.js"],
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/assets"
+            ],
+            "styles": [
+              "src/app/app.component.css",
+              "src/app/womens-details/womens-details.component.css",
+              "src/app/women/women.component.css",
+              "src/app/wishlist/wishlist.component.css",
+              "src/app/top-bar/top-bar.component.css",
+              "src/app/sportsinfo/sportsinfo.component.css",
+              "src/app/shipping/shipping.component.css",
+              "src/app/product-list/product-list.component.css",
+              "src/app/product-details/product-details.component.css",
+              "src/app/mens-details/mens-details.component.css",
+              "src/app/men/men.component.css",
+              "src/app/discount-bar/discount-bar.component.css",
+              "src/app/cart/cart.component.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "Project-3:build:production"
+            },
+            "development": {
+              "browserTarget": "Project-3:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "Project-3:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": ["zone.js", "zone.js/testing"],
+            "tsConfig": "tsconfig.spec.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+            "src/app/app.component.css",
+            "src/app/womens-details/womens-details.component.css",
+            "src/app/women/women.component.css",
+            "src/app/wishlist/wishlist.component.css",
+            "src/app/top-bar/top-bar.component.css",
+            "src/app/sportsinfo/sportsinfo.component.css",
+            "src/app/shipping/shipping.component.css",
+            "src/app/product-list/product-list.component.css",
+            "src/app/product-details/product-details.component.css",
+            "src/app/mens-details/mens-details.component.css",
+            "src/app/men/men.component.css",
+            "src/app/discount-bar/discount-bar.component.css",
+            "src/app/cart/cart.component.css"
+            ],
+            "scripts": []
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "Project-3:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "Project-3:serve:production"
+            }
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "44cfa0e4-6a20-43b9-bd1c-360f966f42ca"
+  }
+}

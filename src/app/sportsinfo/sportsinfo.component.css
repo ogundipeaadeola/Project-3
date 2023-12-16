@@ -1,0 +1,48 @@
+.sportsinfo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sportsinfo-title {
+  font-size: 20px;
+  font-family: 'Marsden wide';
+  color: black;
+}
+
+.sportsinfo-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.sportsinfo-product-name a {
+  color: rgb(199, 16, 46);
+  font-family: 'Marsden wide';
+  font-size: 12pt;
+  margin-left: 0;
+}
+
+.sportsinfo-product-name a:hover {
+  opacity: 0.8;
+}
+
+.sportsinfo-product-image {
+  height: auto;
+  width: 400px;
+  cursor: pointer;
+}
+
+.sportsinfo-product-image:hover {
+  opacity: 0.8;
+}
+
+.sportsinfo-product-description {
+  font-family: 'MaximaEF-Light';
+  color: black;
+  text-align: left;
+  font-size: 12pt;
+  margin-top: 5px;
+  text-align: center;
+}

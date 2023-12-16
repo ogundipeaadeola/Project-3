@@ -1,0 +1,54 @@
+.womens-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.womens-details-name {
+  color: rgb(199, 16, 46);
+  font-family: 'Marsden wide';
+  cursor: default;
+}
+
+.womens-details-price {
+  font-family: 'MaximaEF-Light';
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.womens-details-image {
+  height: 600px;
+  width: auto;
+  opacity: 1;
+  cursor: default;
+}
+
+.womens-details-buttons {
+  display: flex;
+  gap: 10px; 
+  margin-bottom: 15px; 
+}
+
+.womens-details-add-cart,
+.womens-details-add-wishlist {
+  background-color: rgb(199, 16, 46);
+  height: 50px;
+  width: 150px;
+  font-family: 'Marsden wide';
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.womens-details-add-cart:hover,
+.womens-details-add-wishlist:hover {
+  opacity: 0.8;
+}
+
+.womens-details-description {
+  font-family: 'MaximaEF-Light';
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  text-align: center;
+}

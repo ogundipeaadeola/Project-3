@@ -1,0 +1,10 @@
+<div *ngIf="womensproduct" class="womens-details-container">
+  <h3 class="womens-details-name">{{ womensproduct.name }}</h3>
+  <h4 class="womens-details-price">{{ womensproduct.price | currency }}</h4>
+  <img [src]="womensproduct.imageUrl" class="womens-details-image"> 
+  <p class="womens-details-description">{{ womensproduct.productdescription }}</p>
+  <div class="womens-details-buttons">
+      <button type="button" (click)="addToCart(womensproduct)" class="womens-details-add-cart">Add to Cart</button>
+      <button type="button" (click)="addToWishlist(womensproduct)" class="womens-details-add-wishlist">Add to Wishlist</button>
+  </div>
+</div>

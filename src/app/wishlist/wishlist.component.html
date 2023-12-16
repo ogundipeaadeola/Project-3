@@ -1,0 +1,8 @@
+<div class="wishlist-container">
+  <h2 class="wishlist-title">MY WISHLIST</h2>
+
+  <div class="wishlist-item" *ngFor="let item of items">
+    <span>{{ item.name }}</span>
+    <span>{{ item.price | currency }}</span>
+  </div>
+</div>

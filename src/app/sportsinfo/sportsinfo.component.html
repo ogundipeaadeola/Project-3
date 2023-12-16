@@ -1,0 +1,16 @@
+<div class="sportsinfo-container">
+  <h2 class="sportsinfo-title">SPORTS PRODUCTS</h2>
+
+  <div *ngFor="let sportsproduct of sportsproduct" class="sportsinfo-product">
+      <h5 class="sportsinfo-product-name">
+          <a [title]="sportsproduct.name + ' details'" [routerLink]="['/products', sportsproduct.id]">
+              {{ sportsproduct.name }}
+          </a>
+      </h5>
+
+      <img [src]="sportsproduct.imageUrl" class='sportsinfo-product-image' alt="{{ sportsproduct.name }} Image"
+          [routerLink]="['/products', sportsproduct.id]">
+
+      <p *ngIf="sportsproduct.description" class="sportsinfo-product-description">{{ sportsproduct.description }}</p>
+  </div>
+</div>

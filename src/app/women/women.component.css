@@ -1,0 +1,49 @@
+.women-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.women-title {
+  font-size: 20px;
+  font-family: 'Marsden wide';
+  color: black;
+  margin-bottom: 15px;
+}
+
+.women-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.women-product-name a {
+  color: rgb(199, 16, 46);
+  font-family: 'Marsden wide';
+  font-size: 12pt;
+  margin-left: 0;
+}
+
+.women-product-name a:hover {
+  opacity: 0.8;
+}
+
+.women-product-image {
+  height: auto;
+  width: 400px;
+  cursor: pointer;
+}
+
+.women-product-image:hover {
+  opacity: 0.8;
+}
+
+.women-product-description {
+  font-family: 'MaximaEF-Light';
+  color: black;
+  text-align: left;
+  font-size: 12pt;
+  margin-top: 5px;
+  text-align: center;
+}

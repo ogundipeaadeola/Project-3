@@ -1,0 +1,10 @@
+<h2 class="cart-component-title">MY SHOPPING CART</h2>
+
+<div class="cart-component-item-wrapper">
+  <div class="cart-component-item" *ngFor="let item of items">
+    <span class="cart-component-item-name">{{ item.name }}</span>
+    <span class="cart-component-item-price">{{ item.price | currency }}</span>
+  </div>
+</div>
+
+<p routerLink="/shipping" class="cart-component-shipping-link">Shipping Prices</p>

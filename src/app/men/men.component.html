@@ -1,0 +1,15 @@
+<div class="men-container">
+  <h2 class="men-title">MENS PRODUCTS</h2>
+
+  <div *ngFor="let mensproduct of mensproduct" class="men-product">
+    <h5 class="men-product-name">
+      <a [title]="mensproduct.name + ' details'" [routerLink]="['/mens', mensproduct.id]">
+        {{ mensproduct.name }}
+      </a>
+    </h5>
+    
+    <img [src]="mensproduct.imageUrl" class='men-product-image' alt="{{ mensproduct.name }} Image" [routerLink]="['/mens', mensproduct.id]">
+  
+    <p *ngIf="mensproduct.description" class="men-product-description">{{ mensproduct.description }}</p>
+  </div>
+</div>
