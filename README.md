@@ -1,6 +1,6 @@
-# Project 3 - Wilson Clone
+# Project 3 - Inspired by Wilson Website
 
-This project is a loose clone of [Wilson](https://www.wilson.com/en-us), aimed at replicating some functionalities and design elements of the Wilson website.
+Project 3 draws inspiration from the [Wilson](https://www.wilson.com/en-us) website, aiming to replicate some design elements and functionalities while adapting and customizing the user experience.
 
 ## Introduction
 
