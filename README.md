@@ -2,7 +2,16 @@
 
 Project 3 draws inspiration from the [Wilson](https://www.wilson.com/en-us) website, aiming to replicate some design elements and functionalities while adapting and customizing the user experience.
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7142395269874077696" height="348" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+### Product description video and Linkedin post of project:
+
+| [<img src="https://github.com/ogundipeaadeola/Project-3/assets/130032908/a9d01884-384d-47ee-bde2-f47e626df567" width="500px">](https://www.loom.com/share/495ff0d5afbf4acaab6df280ee2da0cf?sid=9a86c382-4d5c-4c68-bb78-16d77ce18ff0) | [<img src="https://github.com/ogundipeaadeola/Project-3/assets/130032908/fdc6a8ae-5cbe-4cb6-87a7-c0d634447f86" width="500px">](https://www.linkedin.com/posts/adeola-ogundipe-54b5041bb_github-ogundipeaadeolaproject-3-activity-7142395270478069760-4tkB?utm_source=share&utm_medium=member_desktop) |
+|---|---|
+
+
+
+
+
+
 
 
 
